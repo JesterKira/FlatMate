@@ -23,7 +23,7 @@ body {
 =========================*/
 .container {
    width: 70%;
-   max-width: 2100px;
+   max-width: 1300px;
    margin: 0 auto;
 }
 
@@ -32,7 +32,6 @@ body {
 .header {
    position: absolute;
    width: 100%;
-   max-width: 3000px;
    padding-top: 50px;
    z-index: 1;
 }
@@ -190,6 +189,7 @@ color: #fff;
 .block-two-link-item {
    width: 70px;
    height: 70px;
+   margin-top: auto;
    display: flex;
    justify-content: center;
    align-items: center;
