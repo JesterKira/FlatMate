@@ -46,6 +46,10 @@ body {
    width: 200px;
 }
 
+.logo-image:hover {
+   cursor: pointer;
+}
+
 .register {
    font-weight: 100;
    font-style: italic;
@@ -222,7 +226,7 @@ color: #fff;
 }
 
 .warranty-header {
-   margin: 100px 0;
+   margin: 50px 0 100px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -257,6 +261,55 @@ color: #fff;
 .browser-window-image {
    width: 100%;
 }
+
+.switch-arrows {
+   position: relative;
+   margin: 0 auto;
+   top: 400px;
+   width: 80%;
+   max-width: 1500px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.arrow {
+   width: 50px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   fill: #ffffff;
+   border: 2px solid #ffffff;
+   border-radius: 100%;
+   transition: 0.2s;
+}
+
+.arrow:hover {
+   background-color: #ffffff;
+   fill: #67bf95;
+}
+
+.svg-switch {
+   width: 20px;
+   height: 20px;
+}
+
+.arrow-left {
+   transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
