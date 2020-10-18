@@ -3,6 +3,7 @@ body {
    font-weight: 400;
 
    margin: 0;
+   
 }
 
 *,
@@ -16,7 +17,6 @@ body {
 .page {
    display: flex;
    flex-direction: column;
-   align-items: center;
 }
 
 /* Container 
@@ -238,7 +238,7 @@ color: #fff;
 
 .warranty-title {
    font-family: "Roboto", sans-serif;
-   font-weight: medium;
+   font-weight: 500;
    font-size: 70px;
    color: #ffffff;
    text-align: center;
@@ -298,8 +298,141 @@ color: #fff;
    transform: rotate(180deg);
 }
 
+/* Variations
+=========================*/
+.variations {
+   margin: 100px 0;
+   font-family: "Roboto", sans-serif;
+}
 
+.variations-inner {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
 
+.variations-inner-text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.variation-text-title {
+   font-weight: 500;
+   font-size: 48px;
+}
+
+.variation-text-subtitle {
+   margin-top: 20px;
+   font-weight: normal;
+   font-size: 24px;
+   text-align: center;
+   line-height: 40px;
+   color: #858b93;
+}
+
+.variations-inner-types {
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.variation-type {
+   width: 25%;
+}
+
+.variation-type-title {
+   padding: 15px 0;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 500;
+   color: #ffffff;
+}
+
+.free-type-title {
+   background: #4b596c;
+}
+
+.professional-type-title {
+   background: #58ad52;
+}
+
+.enterprise-type-title {
+   background: #52a1ad;
+}
+
+.variation-type-capabilities {
+   display: flex;
+   flex-direction: column;
+   line-height: 100px;
+   text-align: center;
+   font-weight: normal;
+   font-size: 25px;
+   color: #6d737b;
+}
+
+.free-type-capabilities {
+   background: #e9eef3;
+}
+
+.professional-type-capabilities {
+   background: #deebde;
+}
+
+.enterprise-type-capabilities {
+   background: #dee9ec;
+}
+
+.cost {
+   font-weight: bold;
+}
+
+.professional-cost {
+   color: #58ad52;
+}
+
+.enterprise-cost {
+   color: #52a1ad;
+}
+
+.variation-type-button {
+   margin-top: 100px;
+   text-align: center;
+   font-weight: 500;
+   font-size: 30px;
+}
+
+.variations-btn {
+   display: flex;
+   justify-content: center;
+   padding: 15px 0;
+   text-decoration: none;
+   color: #ffffff;
+}
+
+.free-btn {
+   background: #4b596c;
+}
+
+.free-btn:hover {
+   background: #3b4655;
+}
+
+.professional-btn {
+   background: #58ad52;
+}
+
+.professional-btn:hover {
+   background: #468b41;
+}
+
+.enterprise-btn {
+   background: #52a1ad;
+}
+
+.enterprise-btn:hover {
+   background: #3b747c;
+}
 
 
 
